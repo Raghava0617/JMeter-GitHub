@@ -1,6 +1,6 @@
 FROM alpine:3.18
 
-# LABEL Author=" " // Provide a name if required 
+# LABEL Author=" " /// Provide a name if required 
 
 ENV JMETER_VERSION "5.6.2"
 ENV JMETER_HOME "/opt/apache/apache-jmeter-${JMETER_VERSION}"
